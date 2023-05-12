@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arimo', sans-serif;
+}
+body{
+    background-size: cover;
+    background-image: url("Gallery/lisa-vanthournout-jezQ2hqsWHc-unsplash.jpg") ;
+}
+
+nav li a{
+    font-weight: 500;
+    font-size: 2vh;
+    color: black;
+    text-decoration: none;
+
+}
+
+header{
+    background: transparent;
+    transition: all 150ms ease-in-out;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+
+    
+}
+
+.active_nav{
+    background-color: white;
+    border-bottom: solid 1px black;
+    transition: 0.2s;
+}
+
+
+
+.active_nav .ul a:hover{
+    color: #0088a9;
+}
+.logo{
+    height: 7vh;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 2vh;
+    
+}
+
+nav li a{
+    transition: all 0.3s ease 0s;
+    
+}
+nav li a:hover{
+    color: #0088a9;
+}
+
+
+
+#Aboutimg{
+    height: 70vh;
+    border-radius: 5vh;
+    margin: 5vh 5vh;
+}
+
+#Intro{
+    display: flex;
+    align-items: center;
+}
+
+.MainHeader{
+    margin: 50px 70px;
+    font-size: 70px;
+    color: white;
+}
+
+.SecondHeader{
+    margin: 5vh 7vh;
+    color: white;
+}
+
+#About{
+    background-color:white ;
+}
+
+
+.card{
+    width: 300px;
+    height: 380px;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 7vh 9vh;
+    box-sizing: border-box;
+    margin:30px 30px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.4s;
+}
+
+.card:hover{
+    width: 320px;
+    height: 400px;
+    transition: 0.4s;
+}
+
+.card1{
+    background-color: lightblue ;
+}
+.card2{
+    background-image:url(Gallery/card2.jpeg) ;
+}
+.card3{
+    background-image:url(Gallery/card3.jpeg) ;
+}
+.card4{
+    background-color: lightblue ;
+}
+
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+#Abouth{
+    font-size: 9vh;
+    font-weight: 600;
+    margin-bottom: 10vh;
+    margin-right: 13vw;
+}
+
+.col p{
+    margin-right: 13vw;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5vh;
+    margin-left: 7vw;
+}
+
+h3{
+    margin: 0%;
+}
+
+.mytabs {
+    
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 60vw;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+
+    padding: 25px;
+}
+.mytabs input[type="radio"] {
+    display: none;
+}
+.mytabs label {
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    background: #e2e2e2;
+    font-weight: bold;
+}
+
+.mytabs .tab {
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    order: 1;
+    display: none;
+}
+.mytabs .tab h2 {
+    font-size: 3em;
+}
+
+.mytabs input[type='radio']:checked + label + .tab {
+    display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+    background: #fff;
+}
+
+.tabss{
+    height: 300px;
+}
